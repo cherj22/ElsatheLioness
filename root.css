@@ -1,0 +1,25 @@
+
+:root, 
+[data-bs-theme=light] {
+
+    --bs-body-bg:#121212;
+    --bs-body-color:#F1F1F1;
+    
+    /* Text Color */
+    --bs-light-text-emphasis:#FFFFFF;
+
+    /* * Card background color */
+    --bs-card-bg: linear-gradient(#222, #121212);
+}
+
+/* *  button-color */
+
+.btn-secondary 
+{
+    --bs-btn-bg:#222222;
+    --bs-btn-border-color: #222222;
+    --bs-btn-color: #FFFFFF;
+}
+
+
+  

@@ -1,0 +1,174 @@
+@import url("root.css");
+
+*
+{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+}
+body
+{
+        max-width: 1920px;
+        margin: auto;
+       
+}
+/*.bd
+{
+     background-image:url('./assets_v2/img/bodyback.png');
+        background-repeat: no-repeat;
+        background-size: contain;    
+}*/
+
+/*carousel*/
+/*.carousel .carousel-inner .carousel-item>img 
+{
+        width: 100px;
+        height: 500px;
+        object-fit: cover;
+}
+*/
+/* Media query */
+/*@media (min-width: 992px) 
+{*/
+        /* without hover */
+       /* .carousel .carousel-inner .carousel-item 
+        {
+                display: block;
+                float: none; 
+                width: 33.33333333%;
+                margin-right: 0;
+                transition: all .3s ease;
+        }*/
+
+        /* on hover */
+       /* .carousel .carousel-inner .carousel-item:hover
+        {
+                width: 100%;
+                cursor: pointer;
+                animation: all .3s ease;
+                
+        
+        }*/
+        
+        /* image and text hover  with filter saturated*/
+      /*  .carousel .carousel-inner .carousel-item img
+        {
+                opacity: 30%;
+                filter:saturate(0%);
+        }
+
+        .carousel .carousel-inner .carousel-item:hover img
+        {
+        
+                opacity: 100%;
+                filter: saturate(100%);
+                cursor: pointer;
+                animation: all .3s ease;
+        }
+
+        .carousel .carousel-inner .carousel-item  p 
+        {
+                color: #aaaaaa;    
+                opacity: 0%;
+                animation: all .3s ease;
+        }
+
+        .carousel .carousel-inner .carousel-item:hover p
+        {
+                opacity: 100%;
+        }
+}*/
+
+.card 
+{
+        --bs-card-border-width: 0;
+        background: linear-gradient(#222, #121212);
+/*        height: 250px;*/
+}
+
+/*navhome*/
+
+.nav-pills .nav-link.active, .nav-pills .show.nav-link
+{
+        background-color: #FDBA2A;
+
+}
+
+.nav-pills .nav-link:hover
+{
+        background-color: #FE712F;
+        border-radius: 8px;
+}               
+        
+/*btn*/
+/*.btn
+{
+        position: relative;
+        width: 7em;
+        height: 7em;
+        border-radius: 50%;
+        outline: none;
+        border:4px #090909 solid;
+        background: linear-gradient(145deg, #171717, #444245);
+        box-shadow: inset 2px 2px 0px #7d7c7e, inset -2px -2px 0 #1c1c1c;
+        color: #a6a6a6;
+}
+.btn span
+{
+        font-size: 2.9em;
+}
+.btn::before 
+{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: inherit;
+        background: linear-gradient(145deg, #262626, #606060);
+        width: 7.25em;
+        height: 7.25em;
+        z-index: -1;
+        box-shadow: 11px 11px 22px #141414, -11px -11px 22px #525252;
+}
+
+.button-clicked 
+{
+        background: linear-gradient(-185deg, #131313, #444245);
+        box-shadow: inset -2px -2px 0px #5e5e5e,
+        inset 2px 2px 0px #1c1c1c;
+}
+.icon-clicked 
+{
+        color: #ffffff;
+        text-shadow: 0px 0px 15px #008ece;
+}*/
+/*bodycontent*/
+.contentbody
+{
+/*        background: green;*/
+
+
+/*text-elsa*/
+.contentbody .text-elsa
+{
+        display: flex;
+         justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  overflow: hidden;
+}
+
+.htext p
+{
+    font-size: 12px;   
+    color: blue; 
+}
+.card .objectives-text p
+{
+        color:red;
+}
+
+/*ROADMAP*/
+
